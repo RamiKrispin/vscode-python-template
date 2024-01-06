@@ -8,7 +8,7 @@
             "PYTHON_VER": "${localEnv:PYTHON_VER}",
             "QUARTO_VER": "${localEnv:QUARTO_VER}"
         }
-    }
+    },
     "customizations": {
         "settings": {
             "python.defaultInterpreterPath": "/opt/conda/envs/${localEnv:PROJECT_A_NAME}/bin/python3",
