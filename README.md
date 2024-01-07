@@ -5,7 +5,7 @@ This repository provides a template for a dockerized Python development environm
 
 See also:
 - [Setting up a Python Development Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-python)
-- [Setting up anR Development  Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-r)
+- [Setting up an R Development  Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-r)
 - [Running Python/R with Docker vs. Virtual Environment](https://medium.com/@rami.krispin/running-python-r-with-docker-vs-virtual-environment-4a62ed36900f)
 - [Deploy Flexdashboard on Github Pages with Github Actions and Docker](https://github.com/RamiKrispin/deploy-flex-actions)
 - [Docker for Data Scientists 🐳](https://github.com/RamiKrispin/Introduction-to-Docker) (WIP) 
@@ -32,7 +32,7 @@ https://github.com/RamiKrispin/vscode-python/tree/main#prerequisites
 
 The template was created to enable seamless customization and modification of the Python environment with the use of environment variables. That includes the Python version, the virtual environment name, installation libraries, setting environment variables, etc. The template can be used as a baseline for setting a dockerized Python environment or as a baseline for a more customized template using the `devcontainer.json` file:
 
-`.devcontainer.devcontainer.json`
+`.devcontainer/devcontainer.json`
 ```json
 {
     "name": "${localEnv:PROJECT_A_NAME:my_project_name}",
