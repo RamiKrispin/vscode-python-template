@@ -75,7 +75,7 @@ This template is ready to use out of the box with Github Codespace:
 
 <br>
 <figure>
-<img src="images/use-template.gif" width="100%" align="center"/></a>
+<img src="images/codespace.gif" width="100%" align="center"/></a>
 <figcaption> Figure 3 - Launching the template with Github Codespace </figcaption>
 </figure>
 
