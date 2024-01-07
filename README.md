@@ -10,6 +10,14 @@ See also:
 - [Deploy Flexdashboard on Github Pages with Github Actions and Docker](https://github.com/RamiKrispin/deploy-flex-actions)
 - [Docker for Data Scientists 🐳](https://github.com/RamiKrispin/Introduction-to-Docker) (WIP) 
 
+<br>
+<figure>
+<img src="images/python-template.gif" width="100%" align="center"/></a>
+<figcaption> Figure 1 - Launch the template with VScode</figcaption>
+</figure>
+
+<br/>
+
 
 ## Scope
 This VScode template includes the following features:
@@ -17,6 +25,29 @@ This VScode template includes the following features:
 - Python virtual environment settings
 - Quarto
 - Jupyter 
+
+The template includes the following files:
+
+```shell
+.
+├── .devcontainer
+│   ├── Dockerfile
+│   ├── devcontainer.env
+│   ├── devcontainer.json
+│   ├── install_dependencies.sh
+│   ├── install_quarto.sh
+│   ├── install_requirements.sh
+│   └── requirements.txt
+├── tests
+│    ├── test1.py
+│    ├── test2.ipynb
+│    ├── test3.html
+│    ├── test3.qmd
+│    └── test3_files
+└── README.md
+```
+
+Where the `.devcontainer `folders contains the environment settings and the `tests` folder contains different tests.
 
 ## General Requirements
 To use this template out of the box, you will need on your local machine the following settings:
