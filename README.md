@@ -59,11 +59,25 @@ To use this template out of the box, you will need on your local machine the fol
 A step-by-step guide for setting the above prerequisites is available here:
 https://github.com/RamiKrispin/vscode-python/tree/main#prerequisites
 
+## Clone the Template
+
+
+<br>
+<figure>
+<img src="images/use-template4k.gif" width="100%" align="center"/></a>
+<figcaption> Figure 2 - Create a clone of the template </figcaption>
+</figure>
+
+<br/>
+
+
+
 ## The Dev Containers Settingsn
 
 The template was created to enable seamless customization and modification of the Python environment with the use of environment variables. That includes the Python version, the virtual environment name, installation libraries, setting environment variables, etc. The template can be used as a baseline for setting a dockerized Python environment or as a baseline for a more customized template using the `devcontainer.json` file:
 
 `.devcontainer/devcontainer.json`
+
 ```json
 {
     "name": "${localEnv:PROJECT_A_NAME:my_project_name}",
@@ -115,7 +129,7 @@ The template was created to enable seamless customization and modification of th
 ```
  **Note:** The default setting uses the build argument with the Dockerfile and some bash helper files. Alternatively, you can use the image argument to use any other container.
 
-The `devcontainer.json` Key arguments:
+The `devcontainer.json` main arguments:
 - `name` - defines the project name
 - `build` - a wrapper for the `docker build` command, will build the container when launching the Dev Container extension.  Alternatively, you can use the `image` argument to load local or external images from Docker Hub.
 - `customizations` - enables the modification of the VScode setting for the container and isolates it from the default settings. In this case, using the following two sub-arguments:
