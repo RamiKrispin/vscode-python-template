@@ -61,6 +61,7 @@ https://github.com/RamiKrispin/vscode-python/tree/main#prerequisites
 
 ## Clone the Template
 
+It is straightforward to use this template and clone it to a different account. Click the `Use this template` green button on the top right and select the `Create a new repository` option. The steps from there are similar for creating a new repository on your account. At the end of this process, it generates a new repository with the template. Figure 2 below demonstrates the full process.
 
 <br>
 <figure>
@@ -70,7 +71,15 @@ https://github.com/RamiKrispin/vscode-python/tree/main#prerequisites
 
 <br/>
 
+This template is ready to use out of the box with Github Codespace:
 
+<br>
+<figure>
+<img src="images/use-template.gif" width="100%" align="center"/></a>
+<figcaption> Figure 3 - Launching the template with Github Codespace </figcaption>
+</figure>
+
+<br/>
 
 ## The Dev Containers Settingsn
 
