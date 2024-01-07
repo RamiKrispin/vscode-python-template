@@ -64,7 +64,7 @@ https://github.com/RamiKrispin/vscode-python/tree/main#prerequisites
 
 <br>
 <figure>
-<img src="images/use-template4k.gif" width="100%" align="center"/></a>
+<img src="images/use-template.gif" width="100%" align="center"/></a>
 <figcaption> Figure 2 - Create a clone of the template </figcaption>
 </figure>
 
