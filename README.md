@@ -148,3 +148,22 @@ The `devcontainer.json` main arguments:
 - `remoteEnv` - set environment variables for the environment
 - `runArgs` - passes arguments to the container during the run time
 - `postCreateCommand` - executes commands on the terminal after the launch of the environment
+
+
+## Customization
+
+The template enables you to customize the environment settings with the use of environment variables. Below is the list of environment variables and their functionality:
+- `PROJECT_A_NAME` - defines the project name and the environment name with a default value of `my_project_name`. The variable used with the following arguments:
+    - `name` - as the project name
+    - `build` - feed to the container argument `ENV_NAME`, which is used to set the venv name
+    - `customizations.settings` - to set the default Python interpreter path to match the venv name
+- `PYTHON_VER` - defines the Python version by setting the base image tag, by default set to `3.10`
+- `QUARTO_VER` - defines the Quarto version to install on the environment, by default set to `1.3.450`
+- `DATA_FOLDER` - optional, used with the mounts argument to define the local folder path to mount on the image in addition to the project folder
+- `MY_VAR` - a local environment variable passed to the dockerize environment with the use of the remoteEnv argument using a default value of `test_var`
+
+Other settings:
+- Libraries - the `requirements.txt` file enables to define the list of libraries to install in the Python virtual environment.
+- Environment variables - there are multiple ways to set and pass environment variables to the container, here are two:
+    - Pass variables using `remoteEnv` argument as mentioned above
+    - Pass variables using the `runArgs` argument, which, as the name implies, eanbles to pass arguments to the container during the run time. This enables to pass an env file with a list of variables. For example, see the `devcontainer.env` file
