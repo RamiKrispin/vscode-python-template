@@ -47,7 +47,7 @@ The template includes the following files:
 └── README.md
 ```
 
-Where the `.devcontainer `folders contains the environment settings and the `tests` folder contains different tests.
+Where the `.devcontainer` folder contains the environment settings and the `tests` folder contains different tests.
 
 ## General Requirements
 To use this template out of the box, you will need on your local machine the following settings:
@@ -164,6 +164,6 @@ The template enables you to customize the environment settings with the use of e
 
 Other settings:
 - Libraries - the `requirements.txt` file enables to define the list of libraries to install in the Python virtual environment.
-- Environment variables - there are multiple ways to set and pass environment variables to the container, here are two:
+- Environment variables - there are multiple ways to set and pass environment variables to the container. Here are two:
     - Pass variables using `remoteEnv` argument as mentioned above
-    - Pass variables using the `runArgs` argument, which, as the name implies, eanbles to pass arguments to the container during the run time. This enables to pass an env file with a list of variables. For example, see the `devcontainer.env` file
+    - Pass variables using the `runArgs` argument, which, as the name implies, enables passing arguments to the container during the run time. This enables passing an env file with a list of variables. For example, see the `devcontainer.env` file
