@@ -81,7 +81,7 @@ This template is ready to use out of the box with Github Codespace:
 
 <br/>
 
-## The Dev Containers Settingsn
+## The Dev Containers Settings
 
 The template was created to enable seamless customization and modification of the Python environment with the use of environment variables. That includes the Python version, the virtual environment name, installation libraries, setting environment variables, etc. The template can be used as a baseline for setting a dockerized Python environment or as a baseline for a more customized template using the `devcontainer.json` file:
 
