@@ -4,6 +4,7 @@ This repository provides a template for a dockerized Python development environm
 
 
 See also:
+- [A tutorial for setting this template](https://medium.com/@rami.krispin/setting-a-dockerized-python-development-environment-template-de2400c4812b)
 - [Setting up a Python Development Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-python)
 - [Setting up an R Development  Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-r)
 - [Running Python/R with Docker vs. Virtual Environment](https://medium.com/@rami.krispin/running-python-r-with-docker-vs-virtual-environment-4a62ed36900f)
